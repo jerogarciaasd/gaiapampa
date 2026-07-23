@@ -112,7 +112,7 @@ export default function GaiaPampa() {
       <nav className="fixed top-0 w-full z-50 bg-stone-900 bg-opacity-95 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
           <button onClick={() => scrollTo("hero")} className="flex items-center">
-            <img src="/logo-dark-bg.png" alt="GAIA Pampa" className="h-7 sm:h-8 w-auto" />
+            <img src="/logo-dark-bg.png" alt="GAIA Pampa" className="h-9 sm:h-11 w-auto" />
           </button>
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-6 text-sm text-stone-300">
@@ -352,7 +352,7 @@ export default function GaiaPampa() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div>
-              <img src="/logo-dark-bg.png" alt="GAIA Pampa S.A.S." className="h-8 w-auto mb-2" />
+              <img src="/logo-dark-bg.png" alt="GAIA Pampa S.A.S." className="h-11 w-auto mb-2" />
               <p className="text-sm">Diseño y ejecución de infraestructura rural</p>
             </div>
             <div className="text-sm text-right">
