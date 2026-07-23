@@ -110,9 +110,9 @@ export default function GaiaPampa() {
 
       {/* NAV */}
       <nav className="fixed top-0 w-full z-50 bg-stone-900 bg-opacity-95 backdrop-blur-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-24 sm:h-28">
           <button onClick={() => scrollTo("hero")} className="flex items-center">
-            <img src="/logo-dark-bg.png" alt="GAIA Pampa" className="h-9 sm:h-11 w-auto" />
+            <img src="/logo-dark-bg.png" alt="GAIA Pampa" className="h-16 sm:h-20 w-auto" />
           </button>
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-6 text-sm text-stone-300">
@@ -145,7 +145,7 @@ export default function GaiaPampa() {
 
       {/* HERO */}
       <section id="hero" className="hero-gradient min-h-screen flex items-center relative overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-20 pb-16 relative z-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-32 sm:pt-36 pb-16 relative z-10">
           <div className="max-w-2xl">
             <p className="text-sm font-medium tracking-widest uppercase mb-6" style={{ color: "#b8941c" }}>
               Pehuajó y alrededores, Buenos Aires
