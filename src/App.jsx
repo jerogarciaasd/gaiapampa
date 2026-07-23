@@ -111,8 +111,8 @@ export default function GaiaPampa() {
       {/* NAV */}
       <nav className="fixed top-0 w-full z-50 bg-stone-900 bg-opacity-95 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
-          <button onClick={() => scrollTo("hero")} className="font-display text-white font-bold text-lg tracking-tight">
-            GAIA <span style={{ color: "#b8941c" }}>PAMPA</span>
+          <button onClick={() => scrollTo("hero")} className="flex items-center">
+            <img src="/logo-dark-bg.png" alt="GAIA Pampa" className="h-7 sm:h-8 w-auto" />
           </button>
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-6 text-sm text-stone-300">
@@ -241,12 +241,12 @@ export default function GaiaPampa() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
             {/* REEMPLAZAR cada src="" por el link real de la imagen al publicar */}
-            <img src="REEMPLAZAR_camion_volcando.jpg" alt="Camión volcando tierra" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
-            <img src="REEMPLAZAR_skid_vereda_piedra.jpg" alt="Skid steer terminando vereda con piedra" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
-            <img src="REEMPLAZAR_zanja_larga.jpg" alt="Zanja de gran escala" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
-            <img src="REEMPLAZAR_retro_canal_campo.jpg" alt="Retropala trabajando en un canal" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
-            <img src="REEMPLAZAR_skid_obra_construccion.jpg" alt="Skid steer en obra en construcción" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
-            <img src="REEMPLAZAR_retro_saca_arbol.jpg" alt="Retropala extrayendo árbol" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
+            <img src="/images/camion-volcando.jpg" alt="Camión volcando tierra" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
+            <img src="/images/skid-vereda-piedra.jpg" alt="Skid steer terminando vereda con piedra" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
+            <img src="/images/zanja-larga.jpg" alt="Zanja de gran escala" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
+            <img src="/images/retro-canal-campo.jpg" alt="Retropala trabajando en un canal" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
+            <img src="/images/skid-obra-construccion.jpg" alt="Skid steer en obra en construcción" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
+            <img src="/images/retro-saca-arbol.jpg" alt="Retropala extrayendo árbol" className="w-full aspect-square object-cover rounded-lg border border-stone-200" />
           </div>
         </div>
       </section>
@@ -352,9 +352,7 @@ export default function GaiaPampa() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div>
-              <p className="font-display text-white font-bold text-lg tracking-tight mb-1">
-                GAIA <span style={{ color: "#b8941c" }}>PAMPA</span> <span className="text-stone-500 font-normal text-sm">S.A.S.</span>
-              </p>
+              <img src="/logo-dark-bg.png" alt="GAIA Pampa S.A.S." className="h-8 w-auto mb-2" />
               <p className="text-sm">Diseño y ejecución de infraestructura rural</p>
             </div>
             <div className="text-sm text-right">
